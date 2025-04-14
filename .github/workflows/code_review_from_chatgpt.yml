@@ -19,7 +19,7 @@ jobs:
           LANGUAGE: Korean
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
           MODEL: gpt-4o
-          PROMPT: 코드 위주로 리뷰해줘
+          PROMPT: 코드 자체에 집중해서 리뷰해 주세요. 실행 맥락이나 추측은 피하고, 현재 제공된 코드 범위 내에서만 피드백을 부탁드립니다. 불필요한 리뷰는 생략해 주세요.
           top_p: 1
           temperature: 0.7
           max_tokens: 1500
