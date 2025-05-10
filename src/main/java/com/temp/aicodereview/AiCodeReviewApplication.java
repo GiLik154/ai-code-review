@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AiCodeReviewApplication {
 
 	public static void main(String[] args) {
+		// 테스트 PR
 		SpringApplication.run(AiCodeReviewApplication.class, args);
 	}
 
